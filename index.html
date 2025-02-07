@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>My Personal Project - Home</title>
+        <link rel="icon" href="assets/img/icon.png" type="image/png">
+    </head>
+  
+    
+    <body onload="welcome()">
+        <nav class="navbar sticky-top bg-dark border-bottom border-body justify-content-end" data-bs-theme="dark">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color: beige;">Jonathan</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: blanchedalmond;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: blanchedalmond;">Contact Me</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="places.html" style="color: blanchedalmond;">Places of Interest</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </nav>
+        <br>
+
+        <div class="container text-center">
+          <p><i>Welcome to my Personal Blog Page! This website will mainly be about my career and hobbies. More content will be added gradually.</i> 😁</p>
+        </div>
+
+        <div class="container">
+          <h1>About Me</h1>
+
+          <div class="about_me_box text-center">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <img class="profile_pic" src="assets/img/profile_pic.jpg" alt="">
+                <!-- <p style="font-size: 9px; font-weight: lighter;">Lorem ipsum dolor sit amet.</p> -->
+              </div>
+              <div class="col-10">
+                <p>Hello, I am Jonathan Wong, 27years old. You can find my professional background and hobbies as you keep going through my blog page.</p>
+              </div>
+            </div>
+          </div>
+
+          <p>Starting with my main focus on professional background (as per below), you can find my educational background, where I started my career and what I am currently doing.</p>
+          <p>You can find my hobbies after going through my professional pathway.</p>
+          <p>You can still try to reach me <a href="contact.html" target="_self">here</a>.</p>
+        </div>
+
+        <div class="container">
+          <h3>Professional Background</h3>
+          <p>Starting with my educational background, I did my bachelor's degree in Bcom Tourism, Hospitality and Marketing at Curtin. However, I recently ddecided to have a career change to IT, thus started a bootcamp at Coder Faculty in Full-Stack development.</p>
+          <p>
+            I started my career at Lai Fat Fur & Bros Co. Ltd in accounting department, with my main duty was book keeping.
+            <br><br>
+            Later on, I went to ITSolvz as an indoor sales representative, where I help customers to have their needs met in any hardwares, such as PCs and printers. 
+            <br><br>
+            While trying to consider what I really wanted to do, I came across Infosys, who recruits graduates even without IT background. At that moment, I seize this opportunity to join Infosys, and did have a training in Java and SQL.
+          </p>
+        </div>
+
+        <div class="container">
+          <h3>Hobbies</h3>
+          <p>Here is a list of all my favourite hobbies. You can find all of them below.</p>
+
+          <div class="hobbies_List">
+            <ol>
+              <li>
+                <h5>Gaming</h5>
+                <br>
+                <div class="gaming">
+                    <div class="card" style="width: 100%;">
+                      <img src="assets/img/lol.jpeg" class="card-img-top" alt="League of Legends">
+                      <div class="card-body">
+                        <h5 class="card-title">League of Legends</h5>
+                        <p class="card-text">MOBA game, 5vs5 players where main focus is to destroy ennemy's base</p>
+                      </div>
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                      <img src="assets/img/cs2.jpeg" class="card-img-top" alt="Counter-Strike 2">
+                      <div class="card-body">
+                        <h5 class="card-title">CS2</h5>
+                        <p class="card-text">FPS game. The team who wins the most rounds, wins the game</p>
+                      </div>
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                      <img src="assets/img/supervive.jpg" class="card-img-top" alt="Supervive">
+                      <div class="card-body">
+                        <h5 class="card-title">Supervive</h5>
+                        <p class="card-text">Team game. Supervive was recently released and fun to play</p>
+                      </div>
+                    </div> 
+                </div> 
+
+                <!-- accordion -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        League of Legends
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">This is one of my favourite games, yet the most hated... However, a fun game while playing with friends and do have a fairly high level of toxicity. This game is about securing objectives across the map while trying to kill ennemies and staying alive as much as possible. Doing so increases your chance of victory.
+                      <br><br>
+                      You can find me playing in different servers, but mainly play in SG server
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        CS2
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">One of my best FPS games so far. Started with CS1.6, with a brief stint in CS:GO andd now find myself with CS2. A strategic game while having a good reaction time will enhance your chances of winning. You do have a wide variety or weapons you can choose from, depending on your taste and playstyle. My personal facourite is AWP.</div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Supervive
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">A game which was recently released in the second half of 2024. A team game as well and fun to play. The aim is to elimiate all your ennemies, sort of battle royale in PUBG.Decent game, with a variety to heroes to choose from, all with a unique playstyle.</div>
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+              <br><br>
+
+              <li>
+                <div>
+                    <h5>Foodie</h5>
+                    <p>I am the kind of person who cannot say to food. I am usually open to try different cuisines but here below is my favourite dish/cuisine.</p>
+
+                    <h6><u>Fav Food</u></h6>
+                    
+                    <!-- to add info -->
+                    <div class="box text-center">
+                      <div class="row">
+                          <div class="col">
+                            <img src="assets/img/chinese.jpg" class="food" alt="Chinese Cuisine">
+                            <h6>Asian</h6> I like chinese cuisine for their different kind of dish. <br>
+                          </div>
+                          <div class="col">
+                            <img src="assets/img/italian.jpg" class="food" alt="Italian Cuisine">
+                            <h6>Italian</h6> There's nothing much I can tell about Italian cuisine. Pizzas and pasta are just delicious <br>
+                          </div>
+                          <div class="col">
+                            <img src="assets/img/indian.jpg" class="food" alt="Indian Cuisine">
+                            <h6>Indian</h6> Indian Cuisine is one of my favourites because of the flavours and different spices that make their taste unique and tasty.<br>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <br>
+
+              <li>
+                <div>
+                    <h5>Hiking</h5>
+                    <p>I love hiking even though I have a acrophobia (fear of heights).</p>
+                    <ul>
+                        <li><u>Trails</u></li>
+                        <p>I usually look for upcoming trails and try to participate whenever possible.</p>
+                        <li><u>Mountains</u></li>
+                        <p>Usually go to mountain climbing with friends. Have not gone to much mountains, but went to fairly easy ones such as Le Pouce.</p>
+                    </ul>
+                    <p>I am open to climb any mountain as long as its difficulty level is not intense. Do not hesitate to drop your recommendations</p>
+                </div>
+              </li>
+              <br>
+
+              <li>
+                <div>
+                  <h5>Football</h5>
+                  <p>Hear me out! My favourite is Liverpool, but I am pretty sure there are a lot of rivals out there.</p>
+                  <img src="assets/img/lfc.avif" class="football" alt="Liverpool FC">
+                  <br>
+                  <p>I have developped this passion late in my teen years, around 17 years old, and started to play as a striker. However, I transitioned to attacking midfield and Left Winger later on. Hope we can see each other on the pitch one day</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script src="main.js" defer></script>
+    </body>
+
+    <footer>
+      <p class="footer">This website was created by &#169 Jonathan 2025</p>
+    </footer>
+</html>
