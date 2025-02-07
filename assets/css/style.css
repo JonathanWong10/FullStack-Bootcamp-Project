@@ -1,0 +1,142 @@
+body {
+    background-color: skyblue;
+    background-image: url('bkg-blu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.about_me_box {
+    border: 3px solid aliceblue;
+    padding: 25px 50px;
+    margin: 20px 75px;
+    border-radius: 10px;
+}
+
+.profile_pic {
+    border-radius: 500px;
+    height: 100px;
+}
+
+
+.gaming {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+.card-body {
+    background-color: bisque;
+}
+
+.accordion {
+    margin-top: 30px;
+}
+
+.accordion-button:hover {
+    background-color:cornsilk;
+}
+
+table, th, td {
+    border: 2px solid;
+    margin: auto;
+}
+
+.box {
+    border: 3px solid aliceblue;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 925px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .profile_pic {
+        width: 175%;
+        display: block;
+        margin: 0 -30px;
+    }
+
+    .gaming {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+.foodie {
+    width: 100%;
+    height: auto;
+}
+
+.food {
+    width: auto;
+    height: 175px;
+}
+
+.football {
+    width: 400px;
+}
+
+
+@media screen and (min-width: 360px){
+    .profile_pic {
+        width: auto;
+        display: block;
+        margin: 0 -30px;
+    }
+}
+
+
+#contact-form {
+    text-align: center;
+    margin: 150px 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 100px
+}
+
+@media screen and (min-width: 360px) and (max-width: 925px){
+    #contact-form{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col {
+        margin-bottom: 25px;
+    }
+}
+
+.sm {
+    margin-top: 50px;
+}
+
+.social-media {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.footer {
+    color: whitesmoke;
+    margin-left: 40px;
+}
+
